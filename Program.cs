@@ -7,7 +7,7 @@ class Program
 
     static void Main()
     {
-        string filePath = "input.csv";
+        string filePath = "Files/input.csv";
         lines = File.ReadAllLines(filePath);
 
         while (true)
