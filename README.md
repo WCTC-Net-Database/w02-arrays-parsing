@@ -40,7 +40,7 @@ Before starting, ensure you have:
 
 **What to do:**
 - Modify your CSV reading to skip or handle a header row
-- First line of CSV might be: `Name,Class,Level,HP,Equipment`
+- First line of CSV might be: `Name,Profession,Level,HP,Equipment`
 
 **Example:**
 ```csharp
@@ -129,7 +129,7 @@ Your menu should still look like:
 ## Sample CSV Format
 
 ```csv
-Name,Class,Level,HP,Equipment
+Name,Profession,Level,HP,Equipment
 "Smith, John",Warrior,5,100,sword|shield|potion
 Jane,Mage,3,60,staff|robe|scroll
 ```
