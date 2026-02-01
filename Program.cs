@@ -1,4 +1,6 @@
-﻿using System;
+namespace W02;
+
+using System;
 using System.IO;
 
 class Program
